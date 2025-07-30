@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+*.env
+
+# AWS keys / config
+.env
+*.pem
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints
+
+# MacOS / Linux / Windows
+.DS_Store
+Thumbs.db
